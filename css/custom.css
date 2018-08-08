@@ -1,0 +1,1238 @@
+/*General Styles */
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Cinzel:400,700&subset=latin-ext');
+.przyklad {
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: black;
+}
+
+html,
+body {
+    margin-top: 0px !important;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    color: black;
+    background-color: antiquewhite;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 85px;
+    background-color: antiquewhite;
+}
+
+#categories,
+.news,
+.contact {
+    padding-top: 70px;
+    padding-bottom: 85px;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+a:hover {
+    color: black;
+}
+
+.btn-arrow {
+    height: 100px;
+    width: 180px;
+    float: right;
+}
+
+.arrow-padding {
+    padding: 0;
+}
+
+/*General Styles End */
+
+/*Welcome Styles*/
+
+/*Welcome Styles*/
+
+.welcome {
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.welcome-background {
+    background-image: url(../img/welcome-background/welcome.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.welcome-caption {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 400;
+    font-family: 'Cinzel Decorative', cursive;
+    display: none;
+}
+
+.welcome-first-letter {
+    font-size: 100px;
+    color: antiquewhite;
+}
+
+.welcome-caption-container {
+    margin-bottom: 3%;
+}
+
+.crest-photo {
+    height: 100px;
+    width: 100px;
+}
+
+.welcome-photo {
+    height: 225px;
+    width: 225px;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.welcome-photo.one {
+    background-image: url(../img/welcome-photo/1.jpg);
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    /* Firefox */
+    -webkit-animation: fadein 5s;
+    /* Safari and Chrome */
+    -o-animation: fadein 5s;
+    /* Opera */
+}
+
+.welcome-photo.two {
+    background-image: url(../img/welcome-photo/kur.jpg);
+    animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    /* Firefox */
+    -webkit-animation: fadein 4s;
+    /* Safari and Chrome */
+    -o-animation: fadein 4s;
+    /* Opera */
+}
+
+.welcome-photo.three {
+    background-image: url(../img/welcome-photo/IMG_9232.jpg);
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    /* Firefox */
+    -webkit-animation: fadein 5s;
+    /* Safari and Chrome */
+    -o-animation: fadein 5s;
+    /* Opera */
+}
+
+.welcome-row-position {
+    padding-top: 9%;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*Welcome Styles End*/
+
+/*Welcome Styles End*/
+
+/*Header Styles*/
+
+.header-wrapper {
+    background-color: antiquewhite;
+    height: 100%;
+    padding: 15px;
+}
+
+.header-menu-container {
+    background-image: url(../img/header-photo/kur.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: 0% 85%;
+    display: none;
+}
+
+.header-menu-container>.header {
+    width: 50%;
+    line-height: inherit;
+    position: absolute;
+    top: 24%;
+    left: 75%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Cinzel Decorative', cursive;
+    color: antiquewhite;
+}
+
+.header-menu-container>.slider-images {
+    position: absolute;
+    width: 70%;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.slider-images img {
+    height: 200px;
+    margin: auto;
+    border-radius: 5%;
+}
+
+/*Header Styles End*/
+
+/*Section Categories Style*/
+
+.categories-row-padding {
+    padding: 0 8% 0 8%;
+}
+
+.padding {
+    padding: 0;
+}
+
+.category-container {
+    height: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 8px;
+    border-radius: 2%;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    transition: all 0.5s ease;
+}
+
+.subpages-link {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.category-container:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.category-container.one {
+    background-image: url(../img/categories/wladze.jpg);
+}
+
+.category-container.two {
+    background-image: url(../img/categories/krolowie.jpg);
+}
+
+.category-container.three {
+    background-image: url(../img/categories/galeria.jpg);
+}
+
+.category-container.four {
+    background-image: url(../img/categories/historia.jpg);
+}
+
+.category-container.five {
+    background-image: url(../img/categories/komunikaty.jpg);
+}
+
+.category-container.six {
+    background-image: url(../img/categories/ciekawostki.jpg);
+}
+
+.category-text {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 33px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+/*Section Categories Style End*/
+
+/*Section Parallax Style*/
+
+.parallax {
+    padding: 0;
+}
+
+.photo-sword {
+    background-image: url(../img/photo/miecz.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+/*Section Parallax Style End*/
+
+/*Section News Style*/
+
+.news-background {
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/news/vintage_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    border: 10px solid black;
+    position: relative;
+}
+
+.news-scroll {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.news-text {
+    position: absolute;
+    height: 100%;
+}
+
+.news-padding {
+    padding-left: 4%;
+}
+
+.news-topic {
+    font-size: 23px;
+    font-weight: 700;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.news-content {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*Section News Style End*/
+
+.section-border {
+    height: 2px;
+    background-color: antiquewhite;
+}
+
+.section-border-line {
+    height: 2px;
+    background-color: black;
+    margin: 0 15px 0 15px;
+}
+
+/*Section Contact*/
+
+.residence {
+    background-image: url(../img/residence/siedziba_zmieniona.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 85%;
+    height: 500px;
+    border-radius: 2%;
+}
+
+.contact-details .contact-name {
+    font-size: 27px;
+    text-align: center;
+}
+
+.contact-details p {
+    font-size: 20px;
+    text-align: left;
+    margin: 5px;
+}
+
+/*Section Contact End*/
+
+/*Footer Styles*/
+
+.content-footer {
+    background-color: black;
+    text-align: center;
+}
+
+.footer-row-padding {
+    padding: 15px 0 15px 0;
+}
+
+.content-footer p {
+    font-size: 21px;
+    color: antiquewhite;
+    margin: 0;
+}
+
+.content-footer .copyright {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+/*Footer Styles End*/
+
+/*Section Authorities*/
+
+.authorities-row-padding {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.authorities-text {
+    font-size: 45px;
+}
+
+.authorities-text-function {
+    margin: 10px 0px 0px 0px;
+    font-size: 34px;
+    height: 64px;
+    letter-spacing: 8px;
+}
+
+.authorities-set-display-two {
+    display: none;
+}
+
+.two-lines {
+    letter-spacing: 0px;
+}
+
+.authorities-border-left {
+    border-left: 3px solid black;
+}
+
+.function-mobile {
+    display: none;
+}
+
+/*Section Authorities End*/
+
+/*Section Kings*/
+
+.kings-row-padding {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.kings-margin {
+    margin-bottom: 70px;
+}
+
+.king-photo {
+    height: 100%;
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.king-photo.one {
+    background-image: url(../img/kings/10.jpg);
+}
+
+.king-header {
+    font-size: 35px;
+    letter-spacing: 5px;
+    border-bottom: 1px solid black;
+    margin: 40px 0px 40px 0px;
+}
+
+.kings-text {
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 2%;
+}
+
+.king-bigger {
+    font-size: 30px;
+}
+
+.marshal-photo {
+    height: 100%;
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.marshal-photo.one {
+    background-image: url(../img/kings/marszalek1.jpg);
+}
+
+.marshal-photo.two {
+    background-image: url(../img/kings/marszalek2.jpg);
+}
+
+/*Section Kings End*/
+
+/*Section Gallery*/
+
+.gallery-row-padding {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.gallery-padding {
+    padding: 15px;
+}
+
+.gallery-background {
+    background-color: navajowhite;
+    padding: 15px;
+    border-radius: 5%;
+}
+
+.gallery-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.gallery-label {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    transition: .3s;
+}
+
+.gallery-label:hover {
+    transform: scale(1.1);
+    max-width: 100%;
+}
+
+.gallery-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+.gallery-mask:hover {
+    opacity: 0.5;
+}
+
+.gallery-mask>a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.gallery-title {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    min-height: 6rem;
+    margin: 10px 0px 0px 10px;
+}
+
+.gallery-label.one {
+    background-image: url(../img/gallery/gallery_one.jpg);
+}
+
+/*Section Gallery End*/
+
+/*Section Gallery Photos*/
+
+.gallery-photos-row-padding {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.gallery-photos-padding {
+    padding: 1px;
+}
+
+.gallery-photo-container {
+    height: 300px;
+    overflow: hidden;
+}
+
+.gallery-photo {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    transition: .3s;
+}
+
+.gallery-photo:hover {
+    transform: scale(1.2);
+    max-width: 100%;
+}
+
+.gallery-photo-container a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.gallery-photo.one {
+    background-image: url(../img/categories/ciekawostki.jpg);
+}
+
+.gallery-photo.two {
+    background-image: url(../img/categories/galeria.jpg);
+}
+
+.gallery-photo.three {
+    background-image: url(../img/categories/krolowie.jpg);
+}
+
+.gallery-photo.four {
+    background-image: url(../img/categories/komunikaty.jpg);
+}
+
+/*Section Gallery Photos End*/
+
+/*Section History*/
+
+.history-header {
+    font-size: 51px;
+}
+
+.history-text {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.bigger-letter {
+    font-size: 40px;
+}
+
+.history-row-padding {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.history-photo {
+    height: 300px;
+    border-radius: 2%;
+}
+
+.left {
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+.right {
+    float: right;
+    margin: 0px 0px 0px 10px;
+}
+
+/*Fade in*/
+
+.history-photo {
+    visibility: hidden;
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 1.5s;
+    animation: animat_show 1.5s;
+    visibility: visible;
+}
+
+@-webkit-keyframes animat_show {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+/*Section History End*/
+
+/*Section Releases*/
+
+.releases-row-padding {
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.releases-container {
+    height: 1000px;
+    border: 8px solid black;
+    overflow-y: scroll;
+    background-color: floralwhite;
+    ;
+}
+
+.release-header {
+    font-size: 35px;
+    border-bottom: 1px solid black;
+}
+
+.release.one {
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+}
+
+.release-text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*Section Releases End*/
+
+/*Section Curiosities*/
+
+.curiosities-row-padding {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.do-you-know {
+    font-size: 50px;
+}
+
+.curiosities-text {
+    background-image: url(../img/welcome-background/curiosity.png);
+    border: 2px solid black;
+    background-color: antiquewhite;
+    font-size: 24px;
+    margin-bottom: 2%;
+    text-align: justify;
+    font-weight: 700;
+    display: none;
+}
+
+/*Section Curiosities End*/
+
+/*Responsive*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1600px) {
+    h1,
+    h2,
+    h3 {
+        font-size: 45px;
+        padding-bottom: 50px;
+    }
+    section {
+        padding-top: 0px;
+    }
+    .header-menu-container>.header {
+        font-size: 56px;
+    }
+    .slider-images img {
+        height: 150px;
+    }
+    .category-container {
+        height: 260px;
+    }
+    .category-text {
+        font-size: 30px;
+    }
+    .residence {
+        height: 450px;
+    }
+    .authorities-text {
+        font-size: 40px;
+    }
+    .authorities-text-function {
+        margin: 10px 0px 0px 0px;
+        font-size: 27px;
+        height: 57px;
+    }
+    .king-header {
+        font-size: 33px;
+        margin-top: 0px;
+    }
+    .king-bigger {
+        font-size: 28px;
+    }
+    .kings-text {
+        font-size: 19px;
+    }
+    .gallery-container {
+        height: 145px;
+    }
+    
+    .gallery-title {
+        font-size: 18px;
+    }
+    .gallery-photo-container {
+        height: 255px;
+    }
+    .history-header {
+        font-size: 43px;
+    }
+    .history-photo {
+        height: 250px;
+    }
+    .history-text {
+        font-size: 20px;
+    }
+    .bigger-letter {
+        font-size: 34px;
+    }
+    .do-you-know {
+        font-size: 45px;
+    }
+    .curiosities-text {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .authorities-text {
+        font-size: 37px;
+    }
+    .authorities-text-function {
+        font-size: 25px;
+        height: 52px;
+    }
+    .history-header {
+        font-size: 38px;
+    }
+    .do-you-know {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .btn-arrow {
+        height: 75px;
+        width: 155px;
+    }
+    h1,
+    h2,
+    h3 {
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+    .header-menu-container>.header {
+        font-size: 45px;
+    }
+    .header-menu-container {
+        background-position: 0% 73%;
+    }
+    .slider-images img {
+        height: 120px;
+    }
+    .category-container {
+        height: 220px;
+    }
+    .category-text {
+        font-size: 25px;
+    }
+    .photo-sword {
+        height: 380px;
+    }
+    .news-background {
+        height: 500px;
+    }
+    .news-topic {
+        font-size: 19px;
+    }
+    .news-content {
+        font-size: 15px;
+    }
+    .residence {
+        height: 350px;
+        background-position: 0% 65%;
+    }
+    .contact-details .contact-name {
+        font-size: 22px;
+    }
+    .contact-details p {
+        font-size: 16px;
+        margin: 3px;
+    }
+    .footer-row-padding {
+        padding: 12px 0 12px 0;
+    }
+    .content-footer p {
+        font-size: 19px;
+        color: antiquewhite;
+        margin: 0;
+    }
+    .content-footer .copyright {
+        font-size: 12px;
+        padding-top: 3px;
+    }
+    .authorities-text {
+        font-size: 30px;
+    }
+    .authorities-text-function {
+        font-size: 24px;
+        height: 42px;
+    }
+    .king-header {
+        font-size: 29px;
+    }
+    .king-photo {
+        height: 350px;
+    }
+    .marshal-photo {
+        height: 350px;
+    }
+    .king-bigger {
+        font-size: 26px;
+    }
+    .kings-text {
+        font-size: 18px;
+    }
+    .gallery-row-padding {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .gallery-photo-container {
+        height: 230px;
+    }
+    .history-header {
+        font-size: 36px;
+    }
+    .history-photo {
+        height: 230px;
+    }
+    .history-text {
+        font-size: 17px;
+    }
+    .bigger-letter {
+        font-size: 25px;
+    }
+    .release-header {
+        font-size: 32px;
+    }
+    .release-text {
+        font-size: 17px;
+    }
+    .do-you-know {
+        font-size: 40px;
+    }
+    .curiosities-text {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .btn-arrow {
+        height: 65px;
+        width: 120px;
+    }
+    #categories,
+    .news,
+    .contact {
+        padding-top: 50px;
+        padding-bottom: 65px;
+    }
+    .header-menu-container {
+        background-position: 0% 100%;
+    }
+    .slider-images img {
+        height: 100px;
+    }
+    .categories-row-padding {
+        padding: 0 5% 0 5%;
+    }
+    .category-container {
+        height: 200px;
+    }
+    .category-text {
+        font-size: 22px;
+    }
+    .photo-sword {
+        height: 300px;
+    }
+    .news-background {
+        height: 450px;
+    }
+    .news-topic {
+        font-size: 17px;
+    }
+    .news-content {
+        font-size: 14px;
+    }
+    .residence {
+        height: 400px;
+    }
+    .contact-details .contact-name {
+        font-size: 22px;
+    }
+    .contact-details p {
+        font-size: 16px;
+        margin: 3px;
+    }
+    .footer-row-padding {
+        padding: 12px 0 12px 0;
+    }
+    .content-footer p {
+        font-size: 16px;
+        color: antiquewhite;
+        margin: 0;
+    }
+    .content-footer .copyright {
+        font-size: 10px;
+        padding-top: 3px;
+    }
+    .authorities-text {
+        font-size: 28px;
+    }
+    .authorities-text-function {
+        font-size: 18px;
+        height: 40px;
+    }
+    .kings-row-padding {
+        padding: 0%;
+    }
+    .gallery-row-padding {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .history-header {
+        font-size: 30px;
+    }
+    .history-row-padding {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .history-photo {
+        height: 200px;
+    }
+    .release-header {
+        font-size: 30px;
+    }
+    .release-text {
+        font-size: 15px;
+    }
+    .do-you-know {
+        font-size: 35px;
+    }
+    .curiosities-text {
+        font-size: 16px;
+    }
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .header-menu-container>.header {
+        left: 70%;
+    }
+    .authorities-text {
+        font-size: 26px;
+    }
+    .authorities-set-display-one {
+        display: none;
+    }
+    .authorities-set-display-two {
+        display: block;
+    }
+    .authorities-row-padding {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .releases-row-padding {
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-menu-container>.header {
+        width: 50%;
+        line-height: inherit;
+        position: absolute;
+        top: 24%;
+        left: 50%;
+        transform: translateX(-0%);
+    }
+    .news-background {
+        background-image: url(../img/news/vintage_mobile.jpg)
+    }
+    .residence {
+        height: 425px;
+    }
+    .content-footer p {
+        font-size: 13px;
+        padding-top: 3px;
+    }
+    .releases-row-padding {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .authorities-row-padding {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .history-photo {
+        height: 160px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-menu-container>.header {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .slider-images {
+        display: none;
+    }
+    .function-mobile {
+        display: block;
+    }
+    .authorities-set-display-two {
+        display: none;
+    }
+    .authorities-border-left {
+        text-align: center;
+        border-right: 3px solid black;
+    }
+    .authorities-border-left p:nth-child(odd) {
+        text-decoration: underline;
+    }
+    .authorities-row-padding {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .history-photo {
+        height: 120px;
+    }
+    .curiosities-row-padding {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1,
+    h2,
+    h3 {
+        font-size: 35px;
+        padding-bottom: 30px;
+    }
+    .header-menu-container {
+        background-position: 100% 0%;
+    }
+    .header-menu-container>.header {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 200%;
+    }
+    .col-xss-12 {
+        width: 100%;
+    }
+    .slider-images {
+        display: none;
+    }
+    .function-mobile {
+        display: block;
+    }
+    .authorities-set-display-two {
+        display: none;
+    }
+    .authorities-border-left {
+        text-align: center;
+        border-right: 3px solid black;
+    }
+    .authorities-border-left p:nth-child(odd) {
+        text-decoration: underline;
+    }
+    .history-photo {
+        max-width: 100%;
+        height: auto;
+    }
+    .history-row-padding {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .release-header {
+        font-size: 28px;
+    }
+    .curiosities-row-padding {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .do-you-know {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    h1,
+    h2,
+    h3 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .header-menu-container>.header {
+        font-size: 30px;
+    }
+    .btn-arrow {
+        width: 100px;
+    }
+}
+
+/*Responsive End*/
